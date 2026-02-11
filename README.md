@@ -301,7 +301,7 @@ npm update -g openclaw
 
 ### Q: API Key 應該如何保管？
 
-**A:** 
+**A:**
 - 永遠不要把 API Keys 提交到 Git 儲存庫
 - 使用環境變數存儲敏感資訊
 - 定期更換 Keys 以確保安全
