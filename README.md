@@ -13,6 +13,7 @@
 - [Gateway 服務設定](#gateway-服務設定)
 - [啟動與測試](#啟動與測試)
 - [常見問題](#常見問題)
+- [相關手冊](#相關手冊)
 
 ---
 
@@ -124,6 +125,8 @@ openclaw init
 
 ![輸入 Bot Token](images/10-openclaw_enter_bot_token.jpg)
 
+> 💡 **詳細的 Discord Bot Token 取得教學**，請參考 [Discord Bot Token 設定手冊](DiscordBotTokenSetup.md)。
+
 前往 [Discord Developer Portal](https://discord.com/developers/applications) 創建一個新的機器人應用程式：
 
 1. 點擊「New Application」
@@ -131,6 +134,8 @@ openclaw init
 3. 進入「Bot」頁面
 4. 點擊「Add Bot」
 5. 複製 Bot Token 並貼上到 OpenClaw 設定中
+
+> ⚠️ **重要**：Bot Token 只會顯示一次，請妥善保管。如需完整的步驟說明，請查看 [Discord Bot Token 設定手冊](DiscordBotTokenSetup.md)。
 
 ### 步驟 11: 設定 Discord 頻道存取權限
 
@@ -312,6 +317,25 @@ npm update -g openclaw
 ```bash
 openclaw gateway reset-token
 ```
+
+---
+
+## 相關手冊
+
+除了本手冊之外，我們還提供了其他專門的設定指南：
+
+### 📘 [Discord Bot Token 設定手冊](DiscordBotTokenSetup.md)
+
+詳細說明如何：
+- 在 Discord Developer Portal 建立應用程式
+- 取得和管理 Discord Bot Token
+- 設定 Bot 權限和邀請到伺服器
+- 將 Token 綁定到 OpenClaw
+- 將 Bot 綁定到聊天群組
+- Token 安全性最佳實踐
+- 常見問題排除
+
+如果你是第一次設定 Discord Bot，強烈建議先閱讀此手冊。
 
 ---
 
